@@ -39,7 +39,7 @@ public class Magic8Ball {
         while (moreQuestions) {
             System.out.print("Enter your question: ");
             question = in.nextLine();
-            answer = answers[rnd.nextInt(21)];
+            answer = answers[rnd.nextInt(20)];
             System.out.println("YOU ASKED: " + question);
             System.out.println("MAGIC 8-BALL SAYS: " + answer);
             System.out.print("Do you have another question for the Magic 8-Ball? (y/n) ");
